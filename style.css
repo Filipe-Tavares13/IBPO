@@ -1,0 +1,658 @@
+
+
+/* -----------------MENU-------------------- */
+
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+font-size: 14px;
+}
+
+.navbar {
+background-color: #000000c8;
+padding: 10px;
+position: relative;
+}
+
+nav ul li a {
+text-decoration: none;
+font-weight: bold;
+color: black;
+font-size: 18px;
+}
+
+.menu-icon {
+font-size: 30px;
+color: white;
+cursor: pointer;
+display: inline-block;
+}
+
+#menu-toggle {
+display: none;
+}
+
+.menu li {
+border-top: 1px solid #000000;
+}
+
+.menu li a {
+color: white;
+text-decoration: none;
+display: block;
+padding: 10px;
+}
+
+
+
+
+/*----------------------HOME----------------------- */
+
+
+.titulo-igreja {
+  font-family: Montserrat;
+  font-size: 50px;
+  text-align: center; 
+}
+
+
+.titulo-2-igreja {
+  font-family: Montserrat;
+  font-size: 55px;
+  padding-top: 0px;
+  padding-left: 35px;
+  padding-bottom: 35px;
+  text-align:center ;
+}
+
+.rodape-titulo {
+  padding-left: 45px;
+}
+
+.salmos{
+padding: 100px, 10px, 100px, 10px;
+margin-left: 15px;
+font-family: DM Sans;
+padding-top: 30px;
+text-align: center;
+margin-bottom: 10%;
+}
+
+
+.titulo-missao {
+margin: 0%;
+font-family:'Times New Roman', Times, serif;
+text-align: center;
+font-size: 60px;
+}
+
+.texto-missao {
+  margin-bottom: 15%;
+  font-size: 4vh;
+  line-height: 1.5em; 
+  font-family: DM Sans;
+  line-height: 33px;
+  text-align: center;
+}
+
+.titulo-visao {
+margin-bottom: 1px; 
+font-family:'Times New Roman', Times, serif;
+text-align: center;
+font-size: 60px;
+}
+
+.texto-visao {
+  margin-bottom: 15%;
+  font-size: 4vh;
+  line-height: 1.5em; 
+  font-family: DM Sans;
+  line-height: 33px;
+  text-align: center;
+}
+
+.titulo-valores {
+  margin-bottom: 1px; 
+font-family:'Times New Roman', Times, serif;
+text-align: center;
+font-size: 60px;
+}
+
+.texto-valores{
+  margin-bottom: 10%;
+font-size: 4vh;
+line-height: 1.5em; 
+font-family: DM Sans;
+line-height: 33px;
+text-align: center;
+}
+
+
+/* -----------------------HISTORIA--------------------- */
+
+
+.titulo-historia {
+  font-family: Montserrat;
+  font-size: 45px;
+  padding-top: 50px;
+  padding-left: 35px;
+  padding-bottom: 35px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.subtitulo-1-relato {
+  font-family: DM Sans;
+  padding-top: 30px;
+  font-size: 35px;
+}
+
+.subtitulo-2-relato {
+  font-family: DM Sans;
+  padding-top: 30px;
+  font-size: 35px;
+}
+
+.subtitulo-3-relato {
+  font-family: DM Sans;
+  padding-top: 30px;
+  font-size: 35px;
+}
+
+.subtitulo-4-relato {
+  font-family: DM Sans;
+  padding-top: 30px;
+  font-size: 35px;
+}
+
+.subtitulo-5-relato {
+  padding-left: 40px;
+  margin-left: 13px;
+  font-family: DM Sans;
+  padding-top: 30px;
+  font-size: 35px;
+}
+
+.subtitulo-final {
+  padding-left: 40px;
+  margin-left: 13px;
+  font-family: DM Sans;
+  padding-top: 30px;
+  font-size: 35px;
+  text-align: center;
+}
+
+
+.relato-1{ 
+  font-family: DM Sans;
+  font-size: 3vh;
+  line-height: 33px;
+}
+
+.relato-2 {
+  font-family: DM Sans;
+  font-size: 3vh;
+  line-height: 33px;
+}
+
+.relato-3 {
+  font-family: DM Sans;
+  font-size: 3vh;
+  line-height: 33px;
+}
+
+.relato-4 {
+  font-family: DM Sans;
+  font-size: 3vh;
+  line-height: 33px;
+}
+
+.relato-5 {
+  font-family: DM Sans;
+  font-size: 3vh;
+  line-height: 33px;
+}
+
+.relato-final {
+  font-family: DM Sans;
+  font-size: 3vh;
+  line-height: 25px;
+}
+
+.comentário {
+  font-size: 2.5vh;
+  text-align: center;
+}
+
+.relato-1,
+.relato-2,
+.relato-3,
+.relato-4,
+.relato-5,
+.relato-final,
+.comentário{
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+}
+
+.subtitulo-1-relato,
+.subtitulo-2-relato,
+.subtitulo-3-relato,
+.subtitulo-4-relato,
+.subtitulo-5-relato,
+.subtitulo-final {
+  padding-left: 5%;
+  margin-left: 0;
+  
+}
+
+.subtitulo-1-relato,
+.subtitulo-2-relato,
+.subtitulo-3-relato,
+.subtitulo-4-relato,
+.subtitulo-5-relato {
+  font-size: 5vh;
+  
+}
+
+.relato-1,
+.relato-2,
+.relato-3,
+.relato-4,
+.relato-5 {
+  font-size: 4vh;
+  line-height: 1.5em;
+}
+
+
+/* /---------------------------------FOTOS-----------------------------------/ */
+
+
+.titulo-fotos {
+font-family: Montserrat;
+font-size: 40px;
+text-align: center; 
+margin: 5%;
+}
+
+.texto-dia-da-mulher {
+font-family: DM Sans;
+font-size: 25px;
+text-align: justify; 
+margin-left: 0;
+padding-left: 5%;
+padding-top: 10%;
+}
+
+.fotos-dia-da-mulher {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 5%;
+}
+
+.foto-dia-da-mulher-1 {
+width: 40%;
+max-width: 100%;
+padding-left: 3%;
+}
+
+.foto-dia-da-mulher-2 {
+width: 15%;
+padding-left: 3%;
+max-width: 100%;
+}
+
+.texto-pascoa {
+font-family: DM Sans;
+font-size: 25px;
+text-align: justify; 
+margin-left: 0;
+padding-left: 5%;
+padding-top: 10%;
+}
+
+.foto-pascoa-1 {
+  width: 25%;
+  max-width: 100%;
+  padding-left: 3%;
+}
+
+.foto-pascoa-2 {
+  width: 20%;
+  max-width: 100%;
+  padding-left: 3%;
+}
+
+.foto-pascoa-3 {
+  width: 18%;
+  max-width: 100%;
+  padding-left: 3%;
+}
+
+.foto-pascoa-4 {
+width: 30%;
+max-width: 100%;
+padding-left: 3%;
+}
+
+.foto-pascoa-5 {
+  width: 28%;
+  max-width: 100%;
+  padding-left: 3%;
+}
+
+.fotos-pascoa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 5%;
+}
+
+
+.texto-dia-das-maes {
+font-family: DM Sans;
+font-size: 25px;
+text-align: justify; 
+margin-left: 0;
+padding-left: 5%;
+padding-top: 10%;
+}
+
+.fotos-dia-das-maes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.linha-cima,
+.linha-baixo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+
+.linha-cima img {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+}
+
+.linha-baixo .foto-dia-das-maes-4 {
+  width: 28%;
+  height: auto;
+  object-fit: cover;
+}
+
+.linha-baixo .foto-dia-das-maes-3 {
+  width: 20%;
+  height: auto;
+  object-fit: cover;
+}
+
+.texto-aniversario {
+font-family: DM Sans;
+font-size: 25px;
+text-align: justify; 
+margin-left: 0;
+padding-left: 5%;
+padding-top: 10%;
+}
+
+.fotos-aniversario {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 5%;
+}
+
+.foto-aniversario-1,
+.foto-aniversario-2,
+.foto-aniversario-3,
+.foto-aniversario-4,
+.foto-aniversario-5,
+.foto-aniversario-6,
+.foto-aniversario-7 {
+  width: 20%;
+  max-width: 100%;
+  padding-left: 3%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.texto-culto-de-jovens-1 {
+font-family: DM Sans;
+font-size: 25px;
+text-align: justify; 
+margin-left: 0;
+padding-left: 5%;
+padding-top: 10%;
+}
+
+.fotos-culto-de-jovens-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 5%;
+}
+.foto-culto-de-jovens-1 {
+  width: 40%;
+  max-width: 100%;
+  padding-left: 3%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+
+.texto-fotos-antigas {
+font-family: DM Sans;
+font-size: 25px;
+text-align: justify; 
+margin-left: 0;
+padding-left: 5%;
+padding-top: 10%;
+}
+
+.fotos-antigas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 5%;
+}
+
+.linha-cima-antiga,
+.linha-baixo-antiga {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+
+.linha-cima-antiga img,
+.linha-baixo-antiga img {
+  width: 18%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.texto-livro {
+font-family: DM Sans;
+font-size: 25px;
+text-align: justify; 
+margin-left: 0;
+padding-left: 5%;
+padding-top: 10%;
+}
+
+.fotos-livro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 5%;
+  max-width: 900px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.linha-cima-livro,
+.linha-meio-livro,
+.linha-baixo-livro {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.linha-cima-livro img,
+.linha-meio-livro img {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+}
+
+.linha-baixo-livro img {
+  width: 45%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.texto-pais {
+font-family: DM Sans;
+font-size: 25px;
+text-align: justify; 
+margin-left: 0;
+padding-left: 5%;
+padding-top: 10%;
+}
+
+.fotos-pais {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 5%;
+  justify-content: center;
+}
+
+.foto-pais-1,
+.foto-pais-2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 40%;
+  margin: 10px;
+}
+/* -------------------MEDIA------------------- */
+
+
+@media (max-width: 768px) {
+
+.texto-dia-da-mulher {
+text-align: justify;
+}
+
+
+nav {
+padding: 10px;
+}
+
+.titulo-historia {
+font-size: 6vw; 
+padding-top: 20px; 
+padding-left: 5%;   
+}
+
+
+nav ul li a {
+  font-size: 16px;           
+  padding: 5px;
+  
+}
+nav ul {
+  flex-direction: column;    
+  align-items: center;       
+  gap: 10px;
+  padding: 0;
+}
+
+.logo img {
+  height: auto;
+  padding-left: 10px;
+}
+
+.banner img {
+  width: 100%;
+}
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+nav {
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.logo img {
+  height: 60px;
+  padding-left: 40px;
+}
+
+
+.banner img {
+  width: 99vw;
+  height: auto;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fonte-menu {
+font-family: Montserrat;
+font-weight: 700;
+text-transform: uppercase;
+}
+/*---------------------RODAPÉ-------------------- */
+
+
+.footer {
+  font-family: Montserrat;
+  background: #316191;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
