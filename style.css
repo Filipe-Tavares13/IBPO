@@ -42,9 +42,11 @@ text-decoration: none;
 display: block;
 padding: 10px;
 }
-
-
-
+/*----------------------------CONTATO---------------------------- */
+.texto-contato {
+text-align: center;
+font-size: 2vh;
+}
 
 /*----------------------HOME----------------------- */
 
@@ -587,6 +589,50 @@ padding-top: 10%;
 
 .banner img {
   width: 100%;
+}
+
+.texto-missao,
+.texto-visao,
+.texto-valores { 
+line-height: 100%;
+font-size: 3vh;
+}
+
+.relato-1,
+.relato-2,
+.relato-3,
+.relato-4,
+.relato-5 {
+  font-size: 3vh;
+  line-height: 1.5em;
+}
+
+.relato-final {
+  font-size: 3vh;
+  line-height: 1vh;
+}
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+
+.texto-missao {
+line-height: 100%;
+font-size: 3vh;
+}
+
+.texto-visao {
+line-height: 100%;
+font-size: 3vh;
+}
+
+.texto-valores {
+line-height: 100%;
+font-size: 3vh;
+}
+
+.relato-final {
+  font-size: 2.5vh;
+  line-height: 36px;
 }
 }
 /* ---------------------------MEDIA-END----------------------------- */
