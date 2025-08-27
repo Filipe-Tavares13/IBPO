@@ -349,14 +349,19 @@ padding-left: 3%;
   padding-left: 3%;
 }
 
-.fotos-pascoa {
+.fotos-pascoa-1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
   padding-bottom: 5%;
 }
 
+.fotos-pascoa-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 5%;
+}
 
 .texto-dia-das-maes {
 font-family: DM Sans;
