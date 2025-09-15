@@ -7,6 +7,7 @@ body {
 margin: 0;
 font-family: Arial, sans-serif;
 font-size: 14px;
+background-color: #f1f1eb;
 }
 
 .navbar {
@@ -43,7 +44,10 @@ display: block;
 padding: 10px;
 }
 
-
+.linha-divisão {
+  display: flex;
+  justify-content: center;
+}
 /*----------------------------CONTATO---------------------------- */
 .texto-contato {
 text-align: center;
@@ -74,14 +78,16 @@ font-size: 2vh;
 }
 
 .salmos{
-padding: 100px, 10px, 100px, 10px;
 margin-left: 15px;
 font-family: DM Sans;
 padding-top: 30px;
 text-align: center;
-margin-bottom: 10%;
+padding-bottom: 0%;
 }
 
+.linha-divisão {
+display: block;
+}
 
 .titulo-missao {
 margin: 0%;
